@@ -2,7 +2,6 @@ import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 
-import "./assets/App.module.css";
 
 const Home = lazy(() => import("./pages/home/Home"));
 const Movies = lazy(() => import("./pages/movies/Movies"));

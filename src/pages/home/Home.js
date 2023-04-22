@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className={css.home}>
-      <h1 className={css.header}>Popular Movies</h1>
+      <h1 className={css.header}>Trending today</h1>
       <ul className={css.list}>
         {movies.map((movie) => (
           <li key={movie.id} className={css.listItem}>
